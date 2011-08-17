@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Ticean Bennett</title>
+  <link href="http://ticean.com/atom.xml" rel="self"/>
+  <link href="http://ticean.com/"/>
+  <updated>2011-08-16T20:16:36-07:00</updated>
+  <id>http://ticean.com/</id>
+  <author>
+    <name>Ticean Bennett</name>
+    
+  </author>
+
+  
+  <entry>
+    <title>Intro Post</title>
+    <link href="http://ticean.com/blog/2011/08/16/intro-post/"/>
+    <updated>2011-08-16T19:38:00-07:00</updated>
+    <id>http://ticean.com/blog/2011/08/16/intro-post</id>
+    <content type="html">&lt;h2&gt;Boom - Octogoodness!&lt;/h2&gt;
+
+&lt;p&gt;Blogging in a text editor with markdown. Now we're talkin'. ;)&lt;/p&gt;
+
+&lt;p&gt;Courtesy of &lt;a href=&quot;http://octopress.org&quot;&gt;Octopress&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+</feed>
