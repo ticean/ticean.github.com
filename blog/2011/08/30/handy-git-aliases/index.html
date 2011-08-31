@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Ticean Bennett: Intro Post</title>
+  <title>Ticean Bennett: Handy Git Aliases</title>
   <meta name="author" content="Ticean Bennett">
   
 
@@ -16,7 +16,7 @@
 
   
 
-  <link rel="canonical" href="http://ticean.com/blog/2011/08/16/intro-post/"/>
+  <link rel="canonical" href="http://ticean.com/blog/2011/08/30/handy-git-aliases/"/>
   <link href="/favicon.png" rel="shortcut icon" />
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -97,7 +97,7 @@
   
   <header>
     
-      <h1 class="entry-title">Intro Post</h1>
+      <h1 class="entry-title">Handy Git Aliases</h1>
     
     
       <p class="meta">
@@ -105,7 +105,7 @@
 
 
 
-<time datetime="2011-08-16 19:38:00 -0700" pubdate  updated >Aug 16<span>th</span>, 2011</time>
+<time datetime="2011-08-30 14:51:00 -0700" pubdate  updated >Aug 30<span>th</span>, 2011</time>
 
 
 </p>
@@ -113,11 +113,27 @@
   </header>
 
 
-<div class="entry-content"><h2>Boom - Octogoodness!</h2>
+<div class="entry-content"><p>When using git, you can create your own aliases. You might define some aliases to save you some time. Like, maybe you&#8217;d rather type &#8216;co&#8217; in place of &#8216;checkout&#8217;.</p>
 
-<p>Blogging in a text editor with markdown. Now we&#8217;re talkin&#8217;. ;)</p>
+<p>To add an alias, you&#8217;ll need to edit the .gitconfig file that&#8217;s located in your home directory. Add an [alias] section that will contain all the definitions. Like this:</p>
 
-<p>Courtesy of <a href="http://octopress.org">Octopress</a></p>
+<pre><code>[user]
+  name = Your Name
+  email = your@email.com
+
+[alias]
+  co = checkout
+</code></pre>
+
+<h3>Join the Advanced Team</h3>
+
+<p>Adding a personalized alias is cool and all, but what&#8217;s really handy is that you can add commands as aliases. If you&#8217;d like to customize the log output, or add a shortcut to some custom mojo, you can do that.</p>
+
+<p>Here&#8217;s a nice example that I use daily. From <a href="http://www.jukie.net/bart/blog/pimping-out-git-log">Bart&#8217;s Pimping out Git Log</a></p>
+
+<pre><code>[alias]
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset' --abbrev-commit --date=relative
+</code></pre>
 </div>
 
 
@@ -133,7 +149,7 @@
 
 
 
-<time datetime="2011-08-16 19:38:00 -0700" pubdate  updated >Aug 16<span>th</span>, 2011</time>
+<time datetime="2011-08-30 14:51:00 -0700" pubdate  updated >Aug 30<span>th</span>, 2011</time>
 
 
 
@@ -144,7 +160,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ticean.com/blog/2011/08/16/intro-post/" data-via="ticean" data-counturl="http://ticean.com/blog/2011/08/16/intro-post/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ticean.com/blog/2011/08/30/handy-git-aliases/" data-via="ticean" data-counturl="http://ticean.com/blog/2011/08/30/handy-git-aliases/" >Tweet</a>
   
   
   <g:plusone size="medium"></g:plusone>
@@ -160,8 +176,8 @@
     <div id="disqus_thread"><div id="disqus_thread"></div>
 <script type="text/javascript">
   var disqus_shortname = 'ticean';
-  var disqus_identifier = 'http://ticean.com/blog/2011/08/16/intro-post/';
-  var disqus_url = 'http://ticean.com/blog/2011/08/16/intro-post/';
+  var disqus_identifier = 'http://ticean.com/blog/2011/08/30/handy-git-aliases/';
+  var disqus_url = 'http://ticean.com/blog/2011/08/30/handy-git-aliases/';
   //var disqus_developer = 1;
   (function() {
     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

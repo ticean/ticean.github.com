@@ -4,13 +4,42 @@
   <title>Ticean Bennett</title>
   <link href="http://ticean.com/atom.xml" rel="self"/>
   <link href="http://ticean.com/"/>
-  <updated>2011-08-16T20:16:36-07:00</updated>
+  <updated>2011-08-30T22:04:44-07:00</updated>
   <id>http://ticean.com/</id>
   <author>
     <name>Ticean Bennett</name>
     
   </author>
 
+  
+  <entry>
+    <title>Handy Git Aliases</title>
+    <link href="http://ticean.com/blog/2011/08/30/handy-git-aliases/"/>
+    <updated>2011-08-30T14:51:00-07:00</updated>
+    <id>http://ticean.com/blog/2011/08/30/handy-git-aliases</id>
+    <content type="html">&lt;p&gt;When using git, you can create your own aliases. You might define some aliases to save you some time. Like, maybe you'd rather type 'co' in place of 'checkout'.&lt;/p&gt;
+
+&lt;p&gt;To add an alias, you'll need to edit the .gitconfig file that's located in your home directory. Add an [alias] section that will contain all the definitions. Like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[user]
+  name = Your Name
+  email = your@email.com
+
+[alias]
+  co = checkout
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;Join the Advanced Team&lt;/h3&gt;
+
+&lt;p&gt;Adding a personalized alias is cool and all, but what's really handy is that you can add commands as aliases. If you'd like to customize the log output, or add a shortcut to some custom mojo, you can do that.&lt;/p&gt;
+
+&lt;p&gt;Here's a nice example that I use daily. From &lt;a href=&quot;http://www.jukie.net/bart/blog/pimping-out-git-log&quot;&gt;Bart's Pimping out Git Log&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[alias]
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&amp;lt;%an&amp;gt;%Creset' --abbrev-commit --date=relative
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Intro Post</title>

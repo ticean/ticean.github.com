@@ -2,14 +2,18 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://ticean.com/blog/2011/08/16/intro-post/</loc>
-        <lastmod>2011-08-16T20:08:33-07:00</lastmod>
+        <lastmod>2011-08-30T22:04:02-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://ticean.com/blog/2011/08/30/handy-git-aliases/</loc>
+        <lastmod>2011-08-30T22:04:43-07:00</lastmod>
     </url>
     <url>
         <loc>http://ticean.com/blog/archives/</loc>
-        <lastmod>2011-08-16T20:08:33-07:00</lastmod>
+        <lastmod>2011-08-30T22:04:43-07:00</lastmod>
     </url>
     <url>
         <loc>http://ticean.com/</loc>
-        <lastmod>2011-08-16T20:08:33-07:00</lastmod>
+        <lastmod>2011-08-30T22:04:43-07:00</lastmod>
     </url>
 </urlset>

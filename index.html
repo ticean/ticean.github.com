@@ -100,6 +100,56 @@
     
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2011/08/30/handy-git-aliases/">Handy Git Aliases</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+<time datetime="2011-08-30 14:51:00 -0700" pubdate  updated >Aug 30<span>th</span>, 2011</time>
+
+
+</p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>When using git, you can create your own aliases. You might define some aliases to save you some time. Like, maybe you&#8217;d rather type &#8216;co&#8217; in place of &#8216;checkout&#8217;.</p>
+
+<p>To add an alias, you&#8217;ll need to edit the .gitconfig file that&#8217;s located in your home directory. Add an [alias] section that will contain all the definitions. Like this:</p>
+
+<pre><code>[user]
+  name = Your Name
+  email = your@email.com
+
+[alias]
+  co = checkout
+</code></pre>
+
+<h3>Join the Advanced Team</h3>
+
+<p>Adding a personalized alias is cool and all, but what&#8217;s really handy is that you can add commands as aliases. If you&#8217;d like to customize the log output, or add a shortcut to some custom mojo, you can do that.</p>
+
+<p>Here&#8217;s a nice example that I use daily. From <a href="http://www.jukie.net/bart/blog/pimping-out-git-log">Bart&#8217;s Pimping out Git Log</a></p>
+
+<pre><code>[alias]
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset' --abbrev-commit --date=relative
+</code></pre>
+</div>
+  <footer>
+    <a rel="full-article" href="/blog/2011/08/30/handy-git-aliases/">Read on &rarr;</a>
+  </footer>
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2011/08/16/intro-post/">Intro Post</a></h1>
     
     
@@ -153,6 +203,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2011/08/30/handy-git-aliases/">Handy Git Aliases</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2011/08/16/intro-post/">Intro Post</a>
