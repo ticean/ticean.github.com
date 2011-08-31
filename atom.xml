@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title>Ticean Bennett</title>
-  <link href="http://ticean.com/atom.xml" rel="self"/>
-  <link href="http://ticean.com/"/>
-  <updated>2011-08-30T22:04:44-07:00</updated>
-  <id>http://ticean.com/</id>
+  <link href="http://ticean.github.com/atom.xml" rel="self"/>
+  <link href="http://ticean.github.com/"/>
+  <updated>2011-08-31T16:54:34-07:00</updated>
+  <id>http://ticean.github.com/</id>
   <author>
     <name>Ticean Bennett</name>
     
@@ -14,9 +14,9 @@
   
   <entry>
     <title>Handy Git Aliases</title>
-    <link href="http://ticean.com/blog/2011/08/30/handy-git-aliases/"/>
+    <link href="http://ticean.github.com/blog/2011/08/30/handy-git-aliases/"/>
     <updated>2011-08-30T14:51:00-07:00</updated>
-    <id>http://ticean.com/blog/2011/08/30/handy-git-aliases</id>
+    <id>http://ticean.github.com/blog/2011/08/30/handy-git-aliases</id>
     <content type="html">&lt;p&gt;When using git, you can create your own aliases. You might define some aliases to save you some time. Like, maybe you'd rather type 'co' in place of 'checkout'.&lt;/p&gt;
 
 &lt;p&gt;To add an alias, you'll need to edit the .gitconfig file that's located in your home directory. Add an [alias] section that will contain all the definitions. Like this:&lt;/p&gt;
@@ -43,9 +43,9 @@
   
   <entry>
     <title>Intro Post</title>
-    <link href="http://ticean.com/blog/2011/08/16/intro-post/"/>
+    <link href="http://ticean.github.com/blog/2011/08/16/intro-post/"/>
     <updated>2011-08-16T19:38:00-07:00</updated>
-    <id>http://ticean.com/blog/2011/08/16/intro-post</id>
+    <id>http://ticean.github.com/blog/2011/08/16/intro-post</id>
     <content type="html">&lt;h2&gt;Boom - Octogoodness!&lt;/h2&gt;
 
 &lt;p&gt;Blogging in a text editor with markdown. Now we're talkin'. ;)&lt;/p&gt;
